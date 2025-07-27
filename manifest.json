@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Codeforces Dark Mode",
+  "version": "1.0",
+  "description": "Toggle dark mode on Codeforces.",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["*://codeforces.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Toggle Dark Mode"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://codeforces.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["dark-mode.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

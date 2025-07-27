@@ -1,0 +1,39 @@
+
+
+    /* Styling for roundbox menu-box elements */
+    .roundbox.menu-box.borderTopRound.borderBottomRound, .datatable {
+        background-color: #000000 !important; /* Dark background */
+        border: 1px solid #444444 !important; /* Darker border */
+        color: #FFFFFF !important; /* Light text color */
+    }
+
+    a:link { /* Unvisited link */
+        color: #01F9C6 !important; /* Your chosen bright teal for unvisited links */
+        text-decoration: none; /* Removes the default underline */
+    }
+
+    a:visited { /* Visited link */
+        color: #00E5B2 !important; /* Slightly darker teal for visited links */
+    }
+
+    a:hover { /* Mouse hover over link */
+        color: #3DFFFF !important; /* Even brighter teal on hover */
+        text-decoration: underline; /* Adds an underline on hover for clarity */
+    }
+    /*.backLava, .leftLava{
+       background: none !important;
+    }*/
+    .input pre, .output pre, .test-example-line,code {
+        color: #90EE90 !important;
+        background-color: #000000 !important;
+    }
+    .roundbox.sidebox.ContestVirtualFrame.borderTopRound, .roundbox.sidebox.borderTopRound, .search , .problem-statement, body, .header, .foother, .left.dark, .roundbox.borderTopRound.borderBottomRound, table, .dark, .dark.right, .state.dark, .roundbox.sidebox.borderTopRound, .content, .ttypography, .ttypography h2, .ttypography h1, .CalendarPage_calendar{
+        background-color: #000000 !important;
+        color: #FFFFFF !important;
+    }
+
+
+
+
+
+    /* Add more specific rules for problem statements, tables, etc. */
