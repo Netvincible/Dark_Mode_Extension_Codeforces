@@ -17,7 +17,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["dark-mode.css"],
+      "resources": ["dark-mode.css","logo.png"],
       "matches": ["<all_urls>"]
     }
   ]

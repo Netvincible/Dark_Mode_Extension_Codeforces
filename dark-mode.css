@@ -31,8 +31,22 @@
         background-color: #000000 !important;
         color: #FFFFFF !important;
     }
+    /* Hide the original Codeforces logo */
+    #header img[alt="Codeforces"] {
+    display: none !important;
+    }
 
-
+    /* Add a custom dark logo in its place */
+    #header::before {
+    content: "";
+    display: inline-block;
+    height: 65px;
+    width: 220px; /* Approximate width of the original image */
+    background-image: url("logo.png"); /* Replace with your dark-mode image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    }
 
 
 
