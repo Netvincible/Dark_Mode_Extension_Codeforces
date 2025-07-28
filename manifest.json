@@ -5,10 +5,6 @@
   "description": "Toggle dark mode on Codeforces.",
   "permissions": ["storage", "scripting", "activeTab"],
   "host_permissions": ["*://codeforces.com/*"],
-  "action": {
-    "default_popup": "popup.html",
-    "default_title": "Toggle Dark Mode"
-  },
   "content_scripts": [
     {
       "matches": ["*://codeforces.com/*"],
@@ -17,7 +13,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["dark-mode.css","logo.png"],
+      "resources": ["logo.png"],
       "matches": ["<all_urls>"]
     }
   ]
