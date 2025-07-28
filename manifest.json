@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["*://codeforces.com/*"],
-      "css": ["dark-mode.css"]
+      "js": ["content.js"]
     }
   ],
   "web_accessible_resources": [
