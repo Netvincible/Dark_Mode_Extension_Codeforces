@@ -31,6 +31,9 @@
         background-color: #000000 !important;
         color: #FFFFFF !important;
     }
+    .highlighted-row td, .highlighted-row th{
+        background-color: #000000 !important;
+    }
     /* Hide the original Codeforces logo */
     #header img[alt="Codeforces"] {
     display: none !important;
@@ -48,6 +51,9 @@
     vertical-align: middle;
     }
 
+    div:white-space{
+        background: none !important;
+    }
 
 
     /* Add more specific rules for problem statements, tables, etc. */
