@@ -27,6 +27,31 @@
         color: #90EE90 !important;
         background-color: #000000 !important;
     }
+
+    .kwd{
+        color: #23BEF0 !important;
+    }
+    .pun{
+        color: #f2f200 !important;
+    }
+    .pln{
+        color: #FFFFFF !important;
+    }
+    .pun{
+        color: #00f4f4 !important;
+    }
+    .pun{
+        color: #ff65ff !important;
+    }
+    .com{
+        color: #ff4949 !important;
+    }
+     .source-popup pre{
+         background-color: #2a2b27 !important;
+    }
+    .str{
+        color: #42d542 !important;
+    }
     .roundbox.sidebox.ContestVirtualFrame.borderTopRound, .roundbox.sidebox.borderTopRound, .search , .problem-statement, body, .header, .foother, .left.dark, .roundbox.borderTopRound.borderBottomRound, table, .dark, .dark.right, .state.dark, .roundbox.sidebox.borderTopRound, .content, .ttypography, .ttypography h2, .ttypography h1, .CalendarPage_calendar{
         background-color: #000000 !important;
         color: #FFFFFF !important;
