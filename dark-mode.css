@@ -56,8 +56,14 @@
         background-color: #000000 !important;
         color: #FFFFFF !important;
     }
-    .highlighted-row td, .highlighted-row th{
+    .highlighted-row td, .highlighted-row th,.text{
         background-color: #000000 !important;
+    }
+    .roundbox.SubmissionDetailsFrameRoundBox-331492170.borderTopRound, .roundbox.borderTopRound {
+        background-color: #282828 !important;
+    }
+    rect.day{
+        fill: ##282828 !important;
     }
     /* Hide the original Codeforces logo */
     #header img[alt="Codeforces"] {
